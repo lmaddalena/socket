@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/bin/a.out",
-            "args": [],
+            "args": ["home/about", "var=1"],
             "preLaunchTask": "make",
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

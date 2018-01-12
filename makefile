@@ -1,6 +1,6 @@
 CC = gcc
 
-CFLAGS = -std=c99 -g
+CFLAGS = -std=c99 -g -DDEBUG
 LDFLAGS =  
 ODIR = bin
 PROG = a.out
