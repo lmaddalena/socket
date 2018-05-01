@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
     
    // connette il socket
     if (connect(sockfd, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0)
-        error("ERRORE: connessione fallita!S");
+        error("ERRORE: connessione fallita!");
 
     // invia la richiesta
     total = strlen(request);
